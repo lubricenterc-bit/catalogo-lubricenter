@@ -1,11 +1,11 @@
 {
-  "actualizado": "Prueba Manual",
+  "actualizado": "Prueba de Botón y Naranja",
   "productos": [
     {
       "nombre": "BRAVA 10W30 SEMI SYNTETICO",
       "descripcion": "Producto automotriz de alta calidad.",
       "categoria": "Aceite 10w30",
-      "precio_usd": 8,
+      "precio_usd_bcv": "$11.27",
       "precio_bs": 5370,
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
@@ -13,7 +13,7 @@
       "nombre": "VENOCO 5W40 FULL SINTETICO",
       "descripcion": "Producto automotriz de alta calidad.",
       "categoria": "Aceite 5w40",
-      "precio_usd": 10,
+      "precio_usd_bcv": "$14.08",
       "precio_bs": 6710,
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     }
