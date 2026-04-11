@@ -41,10 +41,10 @@
 
     <div class="p-4 md:px-6 max-w-7xl mx-auto mt-2">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/5 pb-4">
-            <p class="text-xs text-gray-500 uppercase tracking-widest font-bold">Inventario para Talleres Afiliados</p>
+            <p class="text-xs text-gray-500 uppercase tracking-widest font-bold">Catálogo Digital</p>
             <div class="flex items-center gap-4 text-gray-400 text-xs font-mono">
                 <a href="https://www.instagram.com/lubricentercabudare/" target="_blank" class="flex items-center gap-1 hover:text-[#FF5D15] transition-colors">@lubricentercabudare</a>
-                <a href="https://wa.me/584147934291" target="_blank" class="flex items-center gap-1 hover:text-[#FF5D15] transition-colors">04147934291</a>
+                <a href="https://wa.me/584147934291?text=%C2%A1Hola!%20Buen%20d%C3%ADa.%20Me%20gustar%C3%ADa%20hacerles%20una%20consulta." target="_blank" class="flex items-center gap-1 hover:text-[#FF5D15] transition-colors">04147934291</a>
             </div>
         </div>
     </div>
@@ -95,16 +95,19 @@
     </nav>
 
     <script>
-        let inventarioGlobal = []; // Guarda todos los productos
+        let inventarioGlobal = []; 
 
         async function cargarDatos() {
             try {
-                const respuesta = await fetch('datos.json');
+                // TRUCO DE CACHÉ: Le añade un sello de tiempo único a la consulta
+                const timestamp = new Date().getTime();
+                const respuesta = await fetch(`datos.json?v=${timestamp}`);
+                
                 const data = await respuesta.json();
                 inventarioGlobal = data.productos;
-                renderizarProductos(inventarioGlobal); // Carga inicial
+                renderizarProductos(inventarioGlobal); 
             } catch (error) {
-                document.getElementById('grid-productos').innerHTML = '<p class="text-[#FF5D15] text-sm col-span-full text-center py-10">Error cargando el inventario. Esperando datos...</p>';
+                document.getElementById('grid-productos').innerHTML = '<p class="text-[#FF5D15] text-sm col-span-full text-center py-10">Error cargando el inventario. Esperando datos de sincronización...</p>';
             }
         }
 
@@ -118,7 +121,8 @@
             }
 
             productos.forEach(p => {
-                const mensajeWa = `Buen dia, soy un taller interesado en pedir este producto: ${p.nombre}`;
+                // MENSAJE DE WHATSAPP MÁS HUMANO
+                const mensajeWa = `¡Hola! Buen día. Vi este producto en el catálogo y me interesa: ${p.nombre}. ¿Me confirman si tienen disponibilidad?`;
                 const linkWhatsApp = `https://wa.me/584147934291?text=${encodeURIComponent(mensajeWa)}`;
                 
                 const tarjetaHTML = `
@@ -156,12 +160,10 @@
         function aplicarFiltros() {
             let filtrados = inventarioGlobal;
             
-            // 1. Obtener estados de los filtros
             const tipoActivo = document.querySelector('.filtro-btn.activo').dataset.tipo;
             const grosorActivo = document.getElementById('filtro-grosor').value;
             const precioOrden = document.getElementById('filtro-precio').value;
 
-            // 2. Filtrar por Tipo (lee el nombre del producto)
             if (tipoActivo !== 'todos') {
                 filtrados = filtrados.filter(p => {
                     const str = (p.nombre + " " + p.categoria).toUpperCase();
@@ -174,17 +176,14 @@
                 });
             }
 
-            // 3. Filtrar por Grosor (busca patrones como 10W30 o 10W-30)
             if (grosorActivo !== 'todos') {
                 filtrados = filtrados.filter(p => {
-                    // Quitamos guiones y espacios para facilitar la búsqueda (ej. 10w-30 pasa a 10w30)
                     const strLimpio = (p.nombre + " " + p.categoria).toUpperCase().replace(/[-\s]/g, '');
                     const targetLimpio = grosorActivo.toUpperCase();
                     return strLimpio.includes(targetLimpio);
                 });
             }
 
-            // 4. Ordenar por Precio (limpia el string "$14.08" a número 14.08)
             if (precioOrden !== 'defecto') {
                 filtrados.sort((a, b) => {
                     const precioA = parseFloat(a.precio_usd_bcv.replace(/[^0-9.-]+/g,""));
@@ -193,12 +192,10 @@
                 });
             }
 
-            // 5. Mostrar resultados
             renderizarProductos(filtrados);
         }
 
         // EVENTOS DE LOS FILTROS
-        // Píldoras de Tipo
         document.querySelectorAll('.filtro-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 document.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('activo'));
@@ -207,7 +204,6 @@
             });
         });
 
-        // Selects de Grosor y Precio
         document.getElementById('filtro-grosor').addEventListener('change', aplicarFiltros);
         document.getElementById('filtro-precio').addEventListener('change', aplicarFiltros);
 
