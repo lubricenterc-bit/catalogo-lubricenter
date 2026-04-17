@@ -1,13 +1,13 @@
 {
-  "actualizado": "17/04/2026, 10:09 a. m.",
+  "actualizado": "17/04/2026, 11:56 a. m.",
   "productos": [
     {
-      "nombre": "BRAVA 10W30 SEMI SYNTETICO",
+      "nombre": "BRAVA 10W-30 SEMISINTETICO",
       "precio_usd_bcv": "$11.18",
       "precio_bs": 5370,
       "categoria": "Aceite 10w30",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
-      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+      "imagen": "https://drive.google.com/file/d/1Yq0E_W9SBb0OUr5Ur3UYt8ri3fn0f_SJ/view?usp=drive_link"
     },
     {
       "nombre": "BRAVA DEX III",
@@ -111,7 +111,7 @@
       "precio_bs": 5030,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
-      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+      "imagen": "https://drive.google.com/file/d/1UzO-c9JIokEPKUsYvtsRAXzH6urvnx9v/view?usp=drive_link"
     },
     {
       "nombre": "VALVOLINE 10W30 SEMI SYNTETICO",
@@ -167,7 +167,7 @@
       "precio_bs": 5700,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
-      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+      "imagen": "https://drive.google.com/file/d/1eyRcvA_2q2muC9YFc_a3PGpjnFO1a7e9/view?usp=drive_link"
     },
     {
       "nombre": "LIRAX 20w50 MINERAL GRANEL",
