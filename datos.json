@@ -1,5 +1,5 @@
 {
-  "actualizado": "17/04/2026, 12:12 p. m.",
+  "actualizado": "17/04/2026, 12:49 p. m.",
   "productos": [
     {
       "nombre": "BRAVA 10W-30 SEMISINTETICO",
@@ -7,7 +7,7 @@
       "precio_bs": 5370,
       "categoria": "Aceite 10w30",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
-      "imagen": "https://drive.google.com/uc?export=view&id=1Yq0E_W9SBb0OUr5Ur3UYt8ri3fn0f_SJ"
+      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
       "nombre": "BRAVA DEX III",
@@ -42,7 +42,7 @@
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
-      "nombre": "VALVOLINE 20W50 SEMI SYNTETICO",
+      "nombre": "VALVOLINE 20W50 SEMISINTETICO",
       "precio_usd_bcv": "$13.26",
       "precio_bs": 6370,
       "categoria": "Aceite 20w50",
@@ -50,7 +50,7 @@
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
-      "nombre": "BRAVA 20W50 SEMI SYNTETICO",
+      "nombre": "BRAVA 20W50 SEMISINTETICO",
       "precio_usd_bcv": "$11.18",
       "precio_bs": 5370,
       "categoria": "Aceite 20w50",
@@ -111,10 +111,10 @@
       "precio_bs": 5030,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
-      "imagen": "https://drive.google.com/uc?export=view&id=1UzO-c9JIokEPKUsYvtsRAXzH6urvnx9v"
+      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
-      "nombre": "VALVOLINE 10W30 SEMI SYNTETICO",
+      "nombre": "VALVOLINE 10W-30 SEMISINTETICO",
       "precio_usd_bcv": "$13.97",
       "precio_bs": 6710,
       "categoria": "Aceite 10w30",
@@ -138,7 +138,7 @@
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
-      "nombre": "LIRAX 20W50 SEMI SYNTETICO",
+      "nombre": "LIRAX 20W50 SEMISINTETICO",
       "precio_usd_bcv": "$10.47",
       "precio_bs": 5030,
       "categoria": "Aceite 20w50",
@@ -162,12 +162,12 @@
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
-      "nombre": "BRAVA 15W40 SEMI SINTETICO",
+      "nombre": "BRAVA 15W40 SEMISINTETICO",
       "precio_usd_bcv": "$11.87",
       "precio_bs": 5700,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
-      "imagen": "https://drive.google.com/uc?export=view&id=1eyRcvA_2q2muC9YFc_a3PGpjnFO1a7e9"
+      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
       "nombre": "LIRAX 20w50 MINERAL GRANEL",
@@ -226,7 +226,7 @@
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
-      "nombre": "MOTORCRAFT 0w20 semi sintetico",
+      "nombre": "MOTORCRAFT 0W-20 SEMISINTETICO",
       "precio_usd_bcv": "$13.97",
       "precio_bs": 6710,
       "categoria": "General",
@@ -234,7 +234,7 @@
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
-      "nombre": "Dr Care 20W50 Mineral Garrafa",
+      "nombre": "DR CARE 20W50 MINERAL",
       "precio_usd_bcv": "$27.94",
       "precio_bs": 13420,
       "categoria": "Aceite 20w50",
@@ -258,7 +258,7 @@
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
-      "nombre": "Mobil Delvac 15w40 SemiSintetico Diesel",
+      "nombre": "MOBIL DELVAC 15W40 SEMISINTETICO DIESEL/GASOLINA",
       "precio_usd_bcv": "$13.97",
       "precio_bs": 6710,
       "categoria": "Aceite 15w40",
