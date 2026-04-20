@@ -1,5 +1,5 @@
 {
-  "actualizado": "20/04/2026, 07:00 a. m.",
+  "actualizado": "20/04/2026, 01:00 p. m.",
   "productos": [
     {
       "nombre": "BRAVA 10W-30 SEMISINTETICO",
@@ -264,6 +264,22 @@
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/050tsfwG/Gemini-Generated-Image-hmr9ilhmr9ilhmr9.png"
+    },
+    {
+      "nombre": "SKY EVOLUB 15W-40 SEMISINTETICO",
+      "precio_usd_bcv": "$13.24",
+      "precio_bs": 6370,
+      "categoria": "Aceite 15w40",
+      "descripcion": "Cuidamos lo que te mueve.",
+      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "nombre": "SKY EVOLUB 20W-50 SEMISINTETICO ",
+      "precio_usd_bcv": "$13.24",
+      "precio_bs": 6370,
+      "categoria": "Aceite 15w40",
+      "descripcion": "Cuidamos lo que te mueve.",
+      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     }
   ]
 }
