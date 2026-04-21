@@ -1,5 +1,5 @@
 {
-  "actualizado": "21/04/2026, 01:00 p. m.",
+  "actualizado": "21/04/2026, 03:37 p. m.",
   "productos": [
     {
       "nombre": "BRAVA 10W-30 SEMISINTETICO",
@@ -162,20 +162,12 @@
       "imagen": "https://i.postimg.cc/BbpNBS08/Gemini-Generated-Image-lcyhsflcyhsflcyh.png"
     },
     {
-      "nombre": "LIRAX 20w50 MINERAL GRANEL",
-      "precio_usd_bcv": "$6.95",
-      "precio_bs": 3350,
-      "categoria": "Aceite 20w50",
-      "descripcion": "Cuidamos lo que te mueve.",
-      "imagen": "https://i.postimg.cc/0jnZ0ksQ/Gemini-Generated-Image-10s0db10s0db10s0.png"
-    },
-    {
       "nombre": "VALVULINA BRAVA 85-140W",
       "precio_usd_bcv": "$10.44",
       "precio_bs": 5030,
       "categoria": "Valvulina",
       "descripcion": "Cuidamos lo que te mueve.",
-      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+      "imagen": "https://i.postimg.cc/HWy0kPsS/Gemini-Generated-Image-a9rjlza9rjlza9rj.png"
     },
     {
       "nombre": "VALVULINA BRAVA 75-90W",
@@ -271,7 +263,7 @@
       "precio_bs": 6370,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
-      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+      "imagen": "https://i.postimg.cc/s2NPvPRW/Gemini-Generated-Image-h4qe3yh4qe3yh4qe.png"
     },
     {
       "nombre": "SKY EVOLUB 20W-50 SEMISINTETICO ",
@@ -279,7 +271,7 @@
       "precio_bs": 6370,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
-      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+      "imagen": "https://i.postimg.cc/hGBWNmYw/Gemini-Generated-Image-1jgqvk1jgqvk1jgq-(1).png"
     }
   ]
 }
