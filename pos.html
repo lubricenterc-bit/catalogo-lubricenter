@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POS | Lubricenter</title>
+    <title>POS Lubricenter | Venta Rápida</title>
     
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#FF5D15">
@@ -15,42 +15,43 @@
     
     <style>
         body { background-color: #0a0a0a; color: #f5f5f5; font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
-        .glass-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); cursor: pointer; transition: transform 0.2s; }
-        .glass-card:hover { transform: scale(1.02); border-color: rgba(255, 93, 21, 0.3); }
+        .glass-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); }
         .hide-scroll::-webkit-scrollbar { display: none; }
         .filtro-btn.activo { background-color: #FF5D15; color: white; border-color: #FF5D15; font-weight: bold; }
         
-        #cart-sidebar { transition: transform 0.3s ease-in-out; }
+        #cart-sidebar { transition: transform 0.3s ease-in-out; z-index: 60; }
         .cart-open { transform: translateX(0) !important; }
         
-        #modal-producto { transition: opacity 0.2s ease-in-out; }
+        /* Estilos para el selector de cantidad */
+        .qty-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: 8px; transition: all 0.2s; }
+        .qty-btn:active { background: #FF5D15; transform: scale(0.9); }
     </style>
 </head>
 <body class="min-h-screen pb-24 relative">
 
-    <header class="sticky top-0 z-40 bg-[#0a0a0a]/95 backdrop-blur-md border-b border-white/5 p-4">
+    <header class="sticky top-0 z-50 bg-[#0a0a0a]/95 backdrop-blur-md border-b border-white/5 p-4">
         <div class="max-w-7xl mx-auto flex items-center justify-between">
             <div class="flex items-center gap-3">
                 <img src="logo.png" alt="Logo" class="h-10 w-auto object-contain" onerror="this.style.display='none'">
                 <div>
-                    <h1 class="text-xl font-black italic tracking-tighter uppercase">Lubricenter<span class="text-[#FF5D15]">.</span></h1>
-                    <span class="text-[10px] text-gray-500 font-mono tracking-widest uppercase">Punto de Venta Interno</span>
+                    <h1 class="text-xl font-black italic tracking-tighter uppercase leading-none">Lubricenter<span class="text-[#FF5D15]">.</span></h1>
+                    <span class="text-[9px] text-[#FF5D15] font-black tracking-[0.2em] uppercase">Punto de Venta</span>
                 </div>
             </div>
-            <button onclick="toggleCart()" class="relative bg-white/5 p-2.5 rounded-xl border border-white/10 hover:bg-white/10 transition">
-                <svg class="h-6 w-6 text-[#FF5D15]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
-                <span id="cart-count" class="absolute -top-1 -right-1 bg-[#FF5D15] text-white text-[10px] font-black h-5 w-5 flex items-center justify-center rounded-full">0</span>
+            <button onclick="toggleCart()" class="relative bg-white/5 p-3 rounded-xl border border-white/10">
+                <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+                <span id="cart-count" class="absolute -top-1 -right-1 bg-[#FF5D15] text-white text-[10px] font-black h-5 w-5 flex items-center justify-center rounded-full shadow-lg shadow-[#FF5D15]/20">0</span>
             </button>
         </div>
     </header>
 
-    <section class="max-w-7xl mx-auto p-4 md:px-6 sticky top-[73px] z-30 bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/5">
+    <section class="max-w-7xl mx-auto p-4 sticky top-[73px] z-40 bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/5">
         <div class="mb-4">
-            <input type="text" id="buscador" oninput="aplicarFiltros()" placeholder="Buscar aceite, filtro, marca..." 
+            <input type="text" id="buscador" oninput="aplicarFiltros()" placeholder="Buscar producto..." 
             class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#FF5D15] transition-colors">
         </div>
 
-        <div class="flex gap-2 overflow-x-auto hide-scroll pb-2 mb-3" id="filtro-tipo">
+        <div class="flex gap-2 overflow-x-auto hide-scroll pb-2" id="filtro-tipo">
             <button class="filtro-btn activo border border-white/10 text-gray-400 px-4 py-1.5 rounded-full text-[10px] uppercase tracking-wider whitespace-nowrap" data-tipo="todos">Todos</button>
             <button class="filtro-btn border border-white/10 text-gray-400 px-4 py-1.5 rounded-full text-[10px] uppercase tracking-wider whitespace-nowrap" data-tipo="sintetico">Sintético</button>
             <button class="filtro-btn border border-white/10 text-gray-400 px-4 py-1.5 rounded-full text-[10px] uppercase tracking-wider whitespace-nowrap" data-tipo="semi">Semi</button>
@@ -58,48 +59,48 @@
         </div>
     </section>
 
-    <main id="grid-productos" class="max-w-7xl mx-auto p-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
-    </main>
+    <main id="grid-productos" class="max-w-7xl mx-auto p-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+        </main>
 
-    <aside id="cart-sidebar" class="fixed top-0 right-0 bottom-0 w-full md:w-[400px] bg-[#0f0f0f] z-[60] shadow-2xl translate-x-full flex flex-col border-l border-white/10">
+    <aside id="cart-sidebar" class="fixed top-0 right-0 bottom-0 w-full md:w-[400px] bg-[#0f0f0f] shadow-2xl translate-x-full flex flex-col border-l border-white/10">
         <div class="p-6 border-b border-white/10 flex items-center justify-between bg-black">
-            <h2 class="text-xl font-black italic">ORDEN ACTUAL</h2>
-            <button onclick="toggleCart()" class="text-gray-400 hover:text-white text-sm font-bold">CERRAR</button>
+            <h2 class="text-xl font-black italic">CLIENTE ACTUAL</h2>
+            <button onclick="toggleCart()" class="text-gray-500 font-bold text-xs uppercase tracking-widest">Cerrar</button>
         </div>
         
-        <div id="cart-items" class="flex-grow overflow-y-auto p-6 space-y-4">
-        </div>
+        <div id="cart-items" class="flex-grow overflow-y-auto p-4 space-y-3">
+            </div>
 
         <div class="p-6 bg-black border-t border-white/10 space-y-4">
             <div class="flex justify-between items-center">
-                <span class="text-gray-400 text-xs font-bold uppercase">Total a Cobrar</span>
+                <span class="text-gray-500 text-[10px] font-black uppercase tracking-widest">Total Orden</span>
                 <div class="text-right">
                     <p id="total-usd" class="text-3xl font-black text-[#FF5D15]">$0.00</p>
-                    <p id="total-bs" class="text-sm text-gray-500 font-mono">Bs. 0,00</p>
+                    <p id="total-bs" class="text-sm text-gray-400 font-mono">Bs. 0,00</p>
                 </div>
             </div>
 
-            <div class="bg-white/5 border border-white/10 rounded-xl p-3">
-                <p class="text-[10px] text-[#00D1FF] font-bold uppercase mb-2 text-center tracking-widest">Simulador Cashea</p>
-                <div class="grid grid-cols-3 gap-2">
-                    <button onclick="calcularCashea(40)" class="bg-[#00D1FF]/10 text-[#00D1FF] border border-[#00D1FF]/30 rounded p-1.5 text-[10px] font-black hover:bg-[#00D1FF]/20 transition">Nivel 1 (40%)</button>
-                    <button onclick="calcularCashea(50)" class="bg-[#00D1FF]/10 text-[#00D1FF] border border-[#00D1FF]/30 rounded p-1.5 text-[10px] font-black hover:bg-[#00D1FF]/20 transition">Nivel 2 (50%)</button>
-                    <button onclick="calcularCashea(60)" class="bg-[#00D1FF]/10 text-[#00D1FF] border border-[#00D1FF]/30 rounded p-1.5 text-[10px] font-black hover:bg-[#00D1FF]/20 transition">Nivel 3 (60%)</button>
+            <div class="bg-white/5 border border-white/10 rounded-2xl p-4">
+                <p class="text-[9px] text-[#00D1FF] font-black uppercase mb-3 text-center tracking-[0.2em]">Cálculo Cashea</p>
+                <div class="grid grid-cols-3 gap-2 mb-3">
+                    <button onclick="calcularCashea(40)" class="bg-white/5 border border-white/10 rounded-lg py-2 text-[9px] font-black hover:border-[#00D1FF] transition">40%</button>
+                    <button onclick="calcularCashea(50)" class="bg-white/5 border border-white/10 rounded-lg py-2 text-[9px] font-black hover:border-[#00D1FF] transition">50%</button>
+                    <button onclick="calcularCashea(60)" class="bg-white/5 border border-white/10 rounded-lg py-2 text-[9px] font-black hover:border-[#00D1FF] transition">60%</button>
                 </div>
-                <div id="cashea-resultado" class="hidden mt-3 text-center bg-black p-2 rounded border border-[#00D1FF]/20">
-                    <p class="text-xs text-gray-300">Inicial: <span id="cashea-inicial" class="font-black text-[#00D1FF]">$0.00</span></p>
-                    <p class="text-[10px] text-gray-400 mt-1">+ 3 cuotas de <span id="cashea-cuota" class="font-bold text-white">$0.00</span></p>
+                <div id="cashea-resultado" class="hidden text-center bg-black/40 p-3 rounded-xl border border-[#00D1FF]/20 animate-pulse">
+                    <p class="text-xs text-gray-400">Paga hoy: <span id="cashea-inicial" class="font-black text-[#00D1FF] text-sm"></span></p>
+                    <p class="text-[10px] text-gray-500 mt-1">3 Cuotas de <span id="cashea-cuota" class="font-bold text-white"></span></p>
                 </div>
             </div>
 
-            <button onclick="limpiarOrden()" class="w-full bg-white text-black py-4 rounded-xl font-black uppercase tracking-widest hover:bg-gray-200 transition-all mt-2">
-                Cobrar / Limpiar
+            <button onclick="limpiarOrden()" class="w-full bg-white text-black py-4 rounded-xl font-black uppercase tracking-widest hover:scale-[1.02] transition-all">
+                Nueva Orden (F5)
             </button>
         </div>
     </aside>
 
-    <div id="modal-producto" class="fixed inset-0 bg-black/90 backdrop-blur-sm z-[70] hidden flex items-end sm:items-center justify-center sm:p-4">
-        <div id="modal-content" class="bg-[#151515] sm:border border-white/10 sm:rounded-2xl w-full max-w-md overflow-hidden relative rounded-t-3xl shadow-2xl pb-6 sm:pb-0">
+    <div id="modal-producto" class="fixed inset-0 bg-black/90 backdrop-blur-md z-[70] hidden flex items-center justify-center p-4">
+        <div id="modal-content" class="bg-[#151515] border border-white/10 rounded-3xl w-full max-w-md overflow-hidden relative shadow-2xl">
         </div>
     </div>
 
@@ -119,94 +120,61 @@
 
         function renderizar(prods) {
             const container = document.getElementById('grid-productos');
-            container.innerHTML = prods.map(p => {
+            container.innerHTML = prods.map((p, index) => {
+                let precioUSD = parseFloat(String(p.precio_usd_bcv).replace(/[^0-9.-]+/g,""));
                 
-                let precioNumUSD = parseFloat(String(p.precio_usd_bcv).replace(/[^0-9.-]+/g,""));
-
                 return `
-                <div onclick="abrirModal('${p.nombre}')" class="glass-card rounded-2xl p-3 flex flex-col h-full bg-[#111]">
-                    <div class="h-32 bg-black/40 rounded-xl overflow-hidden mb-3 relative">
-                        <img src="${p.imagen}" class="w-full h-full object-cover opacity-90" onerror="this.src='https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop'">
+                <div class="glass-card rounded-3xl p-3 flex flex-col h-full bg-[#111] border border-white/5 relative">
+                    <button onclick="abrirModal('${p.nombre}')" class="absolute top-2 right-2 bg-white/5 p-1.5 rounded-full z-10 text-gray-500 hover:text-white">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </button>
+
+                    <div class="h-32 bg-black/40 rounded-2xl overflow-hidden mb-3">
+                        <img src="${p.imagen}" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop'">
                     </div>
-                    <div class="flex-grow flex flex-col justify-between">
-                        <h3 class="text-xs font-bold text-gray-200 leading-tight mb-2 line-clamp-2">${p.nombre}</h3>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm font-black text-[#FF5D15]">${isNaN(precioNumUSD) ? p.precio_usd_bcv : '$' + precioNumUSD.toFixed(2)}</span>
-                            <div class="bg-white/10 rounded-full p-1.5">
-                                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
-                            </div>
+
+                    <div class="flex-grow">
+                        <h3 class="text-[11px] font-bold text-gray-300 leading-tight mb-2 line-clamp-2 uppercase">${p.nombre}</h3>
+                        <p class="text-lg font-black text-[#FF5D15] mb-3">$${precioUSD.toFixed(2)}</p>
+                    </div>
+
+                    <div class="mt-auto space-y-3">
+                        <div class="flex items-center justify-between bg-black/40 rounded-xl p-1 border border-white/5">
+                            <button onclick="cambiarQty('qty-${index}', -1)" class="qty-btn text-white font-bold">-</button>
+                            <input type="number" id="qty-${index}" value="1" min="1" class="bg-transparent w-8 text-center text-xs font-black focus:outline-none">
+                            <button onclick="cambiarQty('qty-${index}', 1)" class="qty-btn text-white font-bold">+</button>
                         </div>
+                        
+                        <button onclick="addRapido('${p.nombre}', 'qty-${index}')" class="w-full bg-[#FF5D15] text-white py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest shadow-lg shadow-[#FF5D15]/10 active:scale-95 transition-all">
+                            Añadir
+                        </button>
                     </div>
                 </div>
             `}).join('');
         }
 
-        function abrirModal(nombre) {
-            const p = inventario.find(item => item.nombre === nombre);
-            if(!p) return;
+        function cambiarQty(id, delta) {
+            const input = document.getElementById(id);
+            let val = parseInt(input.value) + delta;
+            if (val < 1) val = 1;
+            input.value = val;
+        }
 
-            let precioNumUSD = parseFloat(String(p.precio_usd_bcv).replace(/[^0-9.-]+/g,""));
-            let strBs = p.precio_bs.toLocaleString('es-VE', {minimumFractionDigits: 2, maximumFractionDigits: 2});
-
-            const modalContent = document.getElementById('modal-content');
-            modalContent.innerHTML = `
-                <button onclick="cerrarModal()" class="absolute top-4 right-4 bg-black/50 backdrop-blur-md p-2 rounded-full z-10 text-white hover:bg-white/20">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                </button>
-                <div class="h-64 w-full bg-black relative">
-                    <img src="${p.imagen}" class="w-full h-full object-cover opacity-80" onerror="this.src='https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop'">
-                    <span class="absolute bottom-4 left-4 bg-[#FF5D15] text-black px-3 py-1 rounded font-black uppercase tracking-widest text-[10px]">${p.categoria}</span>
-                </div>
-                <div class="p-6">
-                    <h2 class="text-xl font-black text-white leading-tight mb-2">${p.nombre}</h2>
-                    <p class="text-sm text-gray-400 mb-6 leading-relaxed">${p.descripcion}</p>
-                    
-                    <div class="flex justify-between items-end mb-6 bg-black/30 p-4 rounded-xl border border-white/5">
-                        <div>
-                            <span class="text-[10px] text-gray-500 uppercase block font-bold">Precio Unitario</span>
-                            <span class="text-2xl font-black text-white">${isNaN(precioNumUSD) ? p.precio_usd_bcv : '$' + precioNumUSD.toFixed(2)}</span>
-                        </div>
-                        <div class="text-right">
-                            <span class="text-[10px] text-[#FF5D15] uppercase block font-bold">En Bolívares</span>
-                            <span class="text-sm font-bold text-gray-400">Bs. ${strBs}</span>
-                        </div>
-                    </div>
-
-                    <button onclick="agregarAlCarrito('${p.nombre}', ${isNaN(precioNumUSD) ? 0 : precioNumUSD}, ${p.precio_bs}); cerrarModal();" 
-                            class="w-full bg-[#FF5D15] text-white py-4 rounded-xl text-sm font-black uppercase tracking-widest hover:brightness-110 transition-all flex justify-center items-center gap-2">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
-                        Añadir a la Orden
-                    </button>
-                </div>
-            `;
+        function addRapido(nombre, qtyId) {
+            const p = inventario.find(i => i.nombre === nombre);
+            const cantidad = parseInt(document.getElementById(qtyId).value);
+            const precioUSD = parseFloat(String(p.precio_usd_bcv).replace(/[^0-9.-]+/g,""));
             
-            document.getElementById('modal-producto').classList.remove('hidden');
-        }
-
-        function cerrarModal() {
-            document.getElementById('modal-producto').classList.add('hidden');
-        }
-
-        function aplicarFiltros() {
-            const texto = document.getElementById('buscador').value.toUpperCase();
-            const tipo = document.querySelector('.filtro-btn.activo').dataset.tipo;
-
-            let filtrados = inventario.filter(p => {
-                const matchTexto = (p.nombre + p.descripcion + p.categoria).toUpperCase().includes(texto);
-                const matchTipo = tipo === 'todos' || (p.nombre + p.categoria).toUpperCase().includes(tipo.toUpperCase());
-                return matchTexto && matchTipo;
-            });
-
-            renderizar(filtrados);
-        }
-
-        function agregarAlCarrito(nombre, precioUSD, precioBS) {
             const existe = carrito.find(item => item.nombre === nombre);
             if(existe) { 
-                existe.cantidad++; 
+                existe.cantidad += cantidad; 
             } else { 
-                carrito.push({nombre: nombre, cantidad: 1, precio_usd: precioUSD, precio_bs: precioBS}); 
+                carrito.push({nombre: nombre, cantidad: cantidad, precio_usd: precioUSD, precio_bs: p.precio_bs}); 
             }
+            
+            // Reset quantity to 1 after adding
+            document.getElementById(qtyId).value = 1;
+            
             actualizarUI();
             
             if(!document.getElementById('cart-sidebar').classList.contains('cart-open')) {
@@ -216,41 +184,25 @@
 
         function actualizarUI() {
             document.getElementById('cart-count').innerText = carrito.reduce((acc, item) => acc + item.cantidad, 0);
-            
             const totalUSD = carrito.reduce((acc, item) => acc + (item.precio_usd * item.cantidad), 0);
             const totalBS = carrito.reduce((acc, item) => acc + (item.precio_bs * item.cantidad), 0);
 
             document.getElementById('total-usd').innerText = `$${totalUSD.toFixed(2)}`;
-            document.getElementById('total-bs').innerText = `Bs. ${totalBS.toLocaleString('es-VE', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
-
-            // Oculta el resultado de Cashea si se modifica el carrito para no mostrar datos viejos
+            document.getElementById('total-bs').innerText = `Bs. ${totalBS.toLocaleString('es-VE', {minimumFractionDigits: 2})}`;
             document.getElementById('cashea-resultado').classList.add('hidden');
 
             document.getElementById('cart-items').innerHTML = carrito.map(item => `
-                <div class="flex items-center justify-between border-b border-white/5 pb-4 bg-white/5 p-3 rounded-xl">
-                    <div class="flex-grow pr-3">
-                        <p class="text-xs font-bold text-white leading-tight mb-1">${item.nombre}</p>
-                        <p class="text-[11px] text-[#FF5D15] font-black">${item.cantidad} x $${item.precio_usd.toFixed(2)}</p>
+                <div class="flex items-center justify-between bg-white/5 p-3 rounded-2xl border border-white/5">
+                    <div class="pr-2">
+                        <p class="text-[10px] font-black text-white uppercase leading-none mb-1">${item.nombre}</p>
+                        <p class="text-[11px] text-[#FF5D15] font-black">${item.cantidad} UND x $${item.precio_usd.toFixed(2)}</p>
                     </div>
-                    <div class="flex flex-col items-end gap-2">
-                        <span class="text-sm font-black text-white">$${(item.cantidad * item.precio_usd).toFixed(2)}</span>
-                        <button onclick="eliminarDelCarrito('${item.nombre}')" class="text-red-500 text-[10px] font-bold bg-red-500/10 px-2 py-1 rounded">Quitar</button>
+                    <div class="flex flex-col items-end">
+                        <span class="text-sm font-black text-white mb-1">$${(item.cantidad * item.precio_usd).toFixed(2)}</span>
+                        <button onclick="eliminarDelCarrito('${item.nombre}')" class="text-red-500 text-[9px] font-black uppercase tracking-widest">Eliminar</button>
                     </div>
                 </div>
             `).join('');
-        }
-
-        function calcularCashea(porcentaje) {
-            const totalUSD = carrito.reduce((acc, item) => acc + (item.precio_usd * item.cantidad), 0);
-            if(totalUSD === 0) return;
-
-            const inicial = totalUSD * (porcentaje / 100);
-            const restante = totalUSD - inicial;
-            const cuota = restante / 3;
-
-            document.getElementById('cashea-inicial').innerText = `$${inicial.toFixed(2)}`;
-            document.getElementById('cashea-cuota').innerText = `$${cuota.toFixed(2)}`;
-            document.getElementById('cashea-resultado').classList.remove('hidden');
         }
 
         function eliminarDelCarrito(nombre) {
@@ -258,24 +210,51 @@
             actualizarUI();
         }
 
+        function calcularCashea(porcentaje) {
+            const totalUSD = carrito.reduce((acc, item) => acc + (item.precio_usd * item.cantidad), 0);
+            if(totalUSD === 0) return;
+            const inicial = totalUSD * (porcentaje / 100);
+            const cuota = (totalUSD - inicial) / 3;
+            document.getElementById('cashea-inicial').innerText = `$${inicial.toFixed(2)}`;
+            document.getElementById('cashea-cuota').innerText = `$${cuota.toFixed(2)}`;
+            document.getElementById('cashea-resultado').classList.remove('hidden');
+        }
+
         function toggleCart() { document.getElementById('cart-sidebar').classList.toggle('cart-open'); }
 
         function limpiarOrden() {
-            if(carrito.length === 0) return;
+            if(!confirm("¿Deseas limpiar la orden actual?")) return;
             carrito = [];
             actualizarUI();
             toggleCart();
-            
-            const alerta = document.createElement('div');
-            alerta.className = 'fixed top-20 left-1/2 -translate-x-1/2 bg-white text-black font-black uppercase tracking-widest text-[10px] px-6 py-3 rounded-full z-[100] shadow-xl';
-            alerta.innerText = 'Caja limpia. Siguiente orden.';
-            document.body.appendChild(alerta);
-            setTimeout(() => alerta.remove(), 2500);
         }
 
-        document.getElementById('modal-producto').addEventListener('click', function(e) {
-            if (e.target === this) cerrarModal();
-        });
+        function abrirModal(nombre) {
+            const p = inventario.find(item => item.nombre === nombre);
+            const modalContent = document.getElementById('modal-content');
+            modalContent.innerHTML = `
+                <div class="p-8">
+                    <div class="h-48 rounded-2xl overflow-hidden mb-6 bg-black">
+                        <img src="${p.imagen}" class="w-full h-full object-cover">
+                    </div>
+                    <h2 class="text-xl font-black uppercase mb-4">${p.nombre}</h2>
+                    <p class="text-sm text-gray-500 mb-6">${p.descripcion}</p>
+                    <button onclick="document.getElementById('modal-producto').classList.add('hidden')" class="w-full bg-white/10 text-white py-3 rounded-xl font-bold uppercase text-xs">Cerrar Detalles</button>
+                </div>
+            `;
+            document.getElementById('modal-producto').classList.remove('hidden');
+        }
+
+        function aplicarFiltros() {
+            const texto = document.getElementById('buscador').value.toUpperCase();
+            const tipo = document.querySelector('.filtro-btn.activo').dataset.tipo;
+            let filtrados = inventario.filter(p => {
+                const matchTexto = (p.nombre + p.categoria).toUpperCase().includes(texto);
+                const matchTipo = tipo === 'todos' || (p.nombre + p.categoria).toUpperCase().includes(tipo.toUpperCase());
+                return matchTexto && matchTipo;
+            });
+            renderizar(filtrados);
+        }
 
         document.querySelectorAll('.filtro-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
