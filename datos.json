@@ -1,274 +1,290 @@
 {
-  "actualizado": "27/04/2026, 01:00 p. m.",
+  "actualizado": "28/04/2026, 07:00 a. m.",
   "productos": [
     {
       "nombre": "BRAVA 10W-30 SEMISINTETICO",
-      "precio_usd_bcv": "$10.56",
-      "precio_bs": 5120,
+      "precio_usd_bcv": "$11.08",
+      "precio_bs": 5370,
       "categoria": "Aceite 10w30",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/ydqfVpjR/Gemini-Generated-Image-oj9pepoj9pepoj9p.png"
     },
     {
       "nombre": "BRAVA DEX III",
-      "precio_usd_bcv": "$10.56",
-      "precio_bs": 5120,
+      "precio_usd_bcv": "$11.08",
+      "precio_bs": 5370,
       "categoria": "Hidraulico",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/hjFCSZsd/Gemini-Generated-Image-hq5vmvhq5vmvhq5v.png"
     },
     {
       "nombre": "LIRAX 20W50 MINERAL",
-      "precio_usd_bcv": "$8.58",
-      "precio_bs": 4160,
+      "precio_usd_bcv": "$8.99",
+      "precio_bs": 4360,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/0jnZ0ksQ/Gemini-Generated-Image-10s0db10s0db10s0.png"
     },
     {
       "nombre": "LIRAX 15W40 SEMI SINTETICO",
-      "precio_usd_bcv": "$9.9",
-      "precio_bs": 4800,
+      "precio_usd_bcv": "$10.38",
+      "precio_bs": 5030,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/C1yvFr7b/Gemini-Generated-Image-j87gurj87gurj87g.png"
     },
     {
       "nombre": "VALVOLINE 20W50 SEMISINTETICO",
-      "precio_usd_bcv": "$12.54",
-      "precio_bs": 6080,
+      "precio_usd_bcv": "$13.14",
+      "precio_bs": 6370,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/858y1X4y/Gemini-Generated-Image-k2nz53k2nz53k2nz.png"
     },
     {
       "nombre": "BRAVA 20W50 SEMISINTETICO",
-      "precio_usd_bcv": "$10.56",
-      "precio_bs": 5120,
+      "precio_usd_bcv": "$11.08",
+      "precio_bs": 5370,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/vBW0D72h/Gemini-Generated-Image-t9fyhgt9fyhgt9fy.png"
     },
     {
       "nombre": "BRAVA 20W50 MINERAL",
-      "precio_usd_bcv": "$9.9",
-      "precio_bs": 4800,
+      "precio_usd_bcv": "$10.38",
+      "precio_bs": 5030,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/LXzxhkQt/Gemini-Generated-Image-kalouwkalouwkalo.png"
     },
     {
       "nombre": "VALVOLINE 20W50 MINERAL",
-      "precio_usd_bcv": "$11.88",
-      "precio_bs": 5760,
+      "precio_usd_bcv": "$12.46",
+      "precio_bs": 6040,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/50wsj5KP/Gemini-Generated-Image-soeyjosoeyjosoey.png"
     },
     {
       "nombre": "CHRONUS 15W40 SEMI SINTETICO",
-      "precio_usd_bcv": "$12.54",
-      "precio_bs": 6080,
+      "precio_usd_bcv": "$13.14",
+      "precio_bs": 6370,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/qR81gcDZ/Gemini-Generated-Image-y2nimty2nimty2ni.png"
     },
     {
       "nombre": "LIRAX 15W40 MINERAL",
-      "precio_usd_bcv": "$9.24",
-      "precio_bs": 4480,
+      "precio_usd_bcv": "$9.7",
+      "precio_bs": 4700,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/RFcgq1pj/Gemini-Generated-Image-e609bre609bre609.png"
     },
     {
       "nombre": "CHRONUS 20W50 SEMI SYNTETICO",
-      "precio_usd_bcv": "$12.54",
-      "precio_bs": 6080,
+      "precio_usd_bcv": "$13.14",
+      "precio_bs": 6370,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/4dzWnvFJ/Gemini-Generated-Image-w5ylpcw5ylpcw5yl.png"
     },
     {
       "nombre": "GULF 20W50 MINERAL",
-      "precio_usd_bcv": "$10.56",
-      "precio_bs": 5120,
+      "precio_usd_bcv": "$11.08",
+      "precio_bs": 5370,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/L52NPqrS/Gemini-Generated-Image-n09kvbn09kvbn09k.png"
     },
     {
       "nombre": "BRAVA 15W40 MINERAL",
-      "precio_usd_bcv": "$9.9",
-      "precio_bs": 4800,
+      "precio_usd_bcv": "$10.38",
+      "precio_bs": 5030,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/rsMQ4dvk/Gemini-Generated-Image-qbt3y6qbt3y6qbt3.png"
     },
     {
       "nombre": "VALVOLINE 10W-30 SEMISINTETICO",
-      "precio_usd_bcv": "$13.2",
-      "precio_bs": 6400,
+      "precio_usd_bcv": "$13.84",
+      "precio_bs": 6710,
       "categoria": "Aceite 10w30",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/Bb4MF8dq/Gemini-Generated-Image-5t6vhr5t6vhr5t6v.png"
     },
     {
       "nombre": "VALVOLINE VALVODIESEL 15W/40 MINERAL",
-      "precio_usd_bcv": "$13.2",
-      "precio_bs": 6400,
+      "precio_usd_bcv": "$13.84",
+      "precio_bs": 6710,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/sxswWBtf/Gemini-Generated-Image-hhh2mwhhh2mwhhh2.png"
     },
     {
       "nombre": "VALVOLINE 15W40 SEMI SINTETICO",
-      "precio_usd_bcv": "$11.88",
-      "precio_bs": 5760,
+      "precio_usd_bcv": "$12.46",
+      "precio_bs": 6040,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/Xq4Q5ZTp/Gemini-Generated-Image-sdypdnsdypdnsdyp.png"
     },
     {
       "nombre": "LIRAX 20W50 SEMISINTETICO",
-      "precio_usd_bcv": "$9.9",
-      "precio_bs": 4800,
+      "precio_usd_bcv": "$10.38",
+      "precio_bs": 5030,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/Zn4VN91y/Gemini-Generated-Image-jboyvrjboyvrjboy.png"
     },
     {
+      "nombre": "FILTROS DE ACEITE FRAM EXTRA GUARD PH-3387A",
+      "precio_usd_bcv": "$8.31",
+      "precio_bs": 4030,
+      "categoria": "Filtro de Aceite",
+      "descripcion": "Filtro de alta calidad que retiene impurezas y contaminantes, protegiendo el motor y otros sistemas.",
+      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+    },
+    {
       "nombre": "REFRIGERANTE DR CARE ANARANJADO",
-      "precio_usd_bcv": "$18.48",
-      "precio_bs": 8960,
+      "precio_usd_bcv": "$19.37",
+      "precio_bs": 9390,
       "categoria": "Refrigerante",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/x8ntmkWm/Gemini-Generated-Image-qz7qwqqz7qwqqz7q.png"
     },
     {
       "nombre": "LIRAX 20W50 MINERAL GRANEL",
-      "precio_usd_bcv": "$6.6",
-      "precio_bs": 3200,
+      "precio_usd_bcv": "$6.91",
+      "precio_bs": 3350,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
     },
     {
+      "nombre": "FILTROS DE ACEITES A1 FILTERS AL-3387",
+      "precio_usd_bcv": "$5.53",
+      "precio_bs": 2680,
+      "categoria": "Filtro de Aceite",
+      "descripcion": "Filtro de alta calidad que retiene impurezas y contaminantes, protegiendo el motor y otros sistemas.",
+      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+    },
+    {
       "nombre": "BRAVA 15W40 SEMISINTETICO",
-      "precio_usd_bcv": "$11.22",
-      "precio_bs": 5440,
+      "precio_usd_bcv": "$11.76",
+      "precio_bs": 5700,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/BbpNBS08/Gemini-Generated-Image-lcyhsflcyhsflcyh.png"
     },
     {
       "nombre": "VALVULINA BRAVA 85-140W",
-      "precio_usd_bcv": "$9.9",
-      "precio_bs": 4800,
+      "precio_usd_bcv": "$10.38",
+      "precio_bs": 5030,
       "categoria": "Valvulina",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/HWy0kPsS/Gemini-Generated-Image-a9rjlza9rjlza9rj.png"
     },
     {
       "nombre": "VALVULINA BRAVA 75-90W",
-      "precio_usd_bcv": "$9.9",
-      "precio_bs": 4800,
+      "precio_usd_bcv": "$10.38",
+      "precio_bs": 5030,
       "categoria": "Valvulina",
       "descripcion": "chronus",
       "imagen": "https://i.postimg.cc/ZnHjxbSp/Gemini-Generated-Image-y89c5y89c5y89c5y.png"
     },
     {
       "nombre": "VALVOLINE 5w20 FULL SINTETICO",
-      "precio_usd_bcv": "$21.12",
-      "precio_bs": 10240,
+      "precio_usd_bcv": "$22.14",
+      "precio_bs": 10730,
       "categoria": "Aceite 5w20",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/SRdVfSh7/Gemini-Generated-Image-hgktsdhgktsdhgkt.png"
     },
     {
       "nombre": "INCA 15w40 SEMI-SINTETICO",
-      "precio_usd_bcv": "$13.86",
-      "precio_bs": 6720,
+      "precio_usd_bcv": "$14.52",
+      "precio_bs": 7040,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/kGswvJmc/Gemini-Generated-Image-ezopnmezopnmezop.png"
     },
     {
       "nombre": "INCA 20w50 SEMI-SINTETICO ",
-      "precio_usd_bcv": "$14.13",
-      "precio_bs": 6850,
+      "precio_usd_bcv": "$14.81",
+      "precio_bs": 7180,
       "categoria": "Aceite 15w40",
       "descripcion": "12$",
       "imagen": "https://i.postimg.cc/yxjny1Hv/Gemini-Generated-Image-lda72dlda72dlda7.png"
     },
     {
       "nombre": "INCA 20w50 MINERAL",
-      "precio_usd_bcv": "$13.2",
-      "precio_bs": 6400,
+      "precio_usd_bcv": "$13.84",
+      "precio_bs": 6710,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/4yPwQfgL/Gemini-Generated-Image-z0s179z0s179z0s1.png"
     },
     {
       "nombre": "MOTORCRAFT 0W-20 SEMISINTETICO",
-      "precio_usd_bcv": "$13.2",
-      "precio_bs": 6400,
+      "precio_usd_bcv": "$13.84",
+      "precio_bs": 6710,
       "categoria": "General",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/PfQ6j4wt/Gemini-Generated-Image-frd4safrd4safrd4.png"
     },
     {
       "nombre": "DR CARE 20W50 MINERAL",
-      "precio_usd_bcv": "$26.43",
-      "precio_bs": 12810,
+      "precio_usd_bcv": "$27.68",
+      "precio_bs": 13420,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/QNJ63bTd/Gemini-Generated-Image-k4ly52k4ly52k4ly.png"
     },
     {
       "nombre": "INCA DEX III",
-      "precio_usd_bcv": "$9.9",
-      "precio_bs": 4800,
+      "precio_usd_bcv": "$10.38",
+      "precio_bs": 5030,
       "categoria": "Hidraulico",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/1RrWQHqt/Gemini-Generated-Image-d5jah6d5jah6d5ja.png"
     },
     {
       "nombre": "INCA 5w30 FULL SINTETICO",
-      "precio_usd_bcv": "$20.34",
-      "precio_bs": 9860,
+      "precio_usd_bcv": "$21.31",
+      "precio_bs": 10330,
       "categoria": "Aceite 5w30",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/44Q8g59n/Gemini-Generated-Image-xgx4jsxgx4jsxgx4.png"
     },
     {
       "nombre": "MOBIL DELVAC 15W40 SEMISINTETICO DIESEL/GASOLINA",
-      "precio_usd_bcv": "$13.2",
-      "precio_bs": 6400,
+      "precio_usd_bcv": "$13.84",
+      "precio_bs": 6710,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/nVGdJkDQ/Gemini-Generated-Image-w48n3vw48n3vw48n.png"
     },
     {
       "nombre": "Brava 4 Tiempos 20w50",
-      "precio_usd_bcv": "$9.9",
-      "precio_bs": 4800,
+      "precio_usd_bcv": "$10.38",
+      "precio_bs": 5030,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/050tsfwG/Gemini-Generated-Image-hmr9ilhmr9ilhmr9.png"
     },
     {
       "nombre": "SKY EVOLUB 15W-40 SEMISINTETICO",
-      "precio_usd_bcv": "$12.54",
-      "precio_bs": 6080,
+      "precio_usd_bcv": "$13.14",
+      "precio_bs": 6370,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/s2NPvPRW/Gemini-Generated-Image-h4qe3yh4qe3yh4qe.png"
     },
     {
       "nombre": "SKY EVOLUB 20W-50 SEMISINTETICO ",
-      "precio_usd_bcv": "$12.54",
-      "precio_bs": 6080,
+      "precio_usd_bcv": "$13.14",
+      "precio_bs": 6370,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/hGBWNmYw/Gemini-Generated-Image-1jgqvk1jgqvk1jgq-(1).png"
