@@ -1,5 +1,5 @@
 {
-  "actualizado": "02/05/2026, 07:00 a. m.",
+  "actualizado": "02/05/2026, 01:00 p. m.",
   "productos": [
     {
       "nombre": "BRAVA 10W-30 SEMISINTETICO",
@@ -307,8 +307,8 @@
     },
     {
       "nombre": "Refrigerante ServiLub",
-      "precio_usd_bcv": "$9.6",
-      "precio_bs": 4700,
+      "precio_usd_bcv": "$16.44",
+      "precio_bs": 8050,
       "categoria": "Refrigerante",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
