@@ -1,5 +1,5 @@
 {
-  "actualizado": "12/05/2026, 01:00 p. m.",
+  "actualizado": "12/05/2026, 08:47 p. m.",
   "productos": [
     {
       "nombre": "LUBRIKON DEX III",
@@ -59,16 +59,16 @@
     },
     {
       "nombre": "SKY EVOLUB 20W-50 SEMISINTETICO ",
-      "precio_usd_bcv": "$12.91",
-      "precio_bs": 6520,
+      "precio_usd_bcv": "$14.93",
+      "precio_bs": 7540,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/hGBWNmYw/Gemini-Generated-Image-1jgqvk1jgqvk1jgq-(1).png"
     },
     {
       "nombre": "SKY EVOLUB 15W-40 SEMISINTETICO",
-      "precio_usd_bcv": "$12.91",
-      "precio_bs": 6520,
+      "precio_usd_bcv": "$14.93",
+      "precio_bs": 7540,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/s2NPvPRW/Gemini-Generated-Image-h4qe3yh4qe3yh4qe.png"
@@ -131,16 +131,16 @@
     },
     {
       "nombre": "INCA 20w50 SEMI-SINTETICO ",
-      "precio_usd_bcv": "$14.54",
-      "precio_bs": 7340,
+      "precio_usd_bcv": "$14.93",
+      "precio_bs": 7540,
       "categoria": "Aceite 15w40",
       "descripcion": "12$",
       "imagen": "https://i.postimg.cc/yxjny1Hv/Gemini-Generated-Image-lda72dlda72dlda7.png"
     },
     {
       "nombre": "INCA 15w40 SEMI-SINTETICO",
-      "precio_usd_bcv": "$14.26",
-      "precio_bs": 7200,
+      "precio_usd_bcv": "$14.93",
+      "precio_bs": 7540,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/kGswvJmc/Gemini-Generated-Image-ezopnmezopnmezop.png"
@@ -315,8 +315,8 @@
     },
     {
       "nombre": "VALVOLINE 20W50 SEMISINTETICO",
-      "precio_usd_bcv": "$12.91",
-      "precio_bs": 6520,
+      "precio_usd_bcv": "$13.59",
+      "precio_bs": 6860,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/858y1X4y/Gemini-Generated-Image-k2nz53k2nz53k2nz.png"
@@ -331,8 +331,8 @@
     },
     {
       "nombre": "VALVOLINE 15W40 SEMI SINTETICO",
-      "precio_usd_bcv": "$12.22",
-      "precio_bs": 6170,
+      "precio_usd_bcv": "$13.59",
+      "precio_bs": 6860,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
       "imagen": "https://i.postimg.cc/Xq4Q5ZTp/Gemini-Generated-Image-sdypdnsdypdnsdyp.png"
