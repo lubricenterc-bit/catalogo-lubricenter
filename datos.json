@@ -1,6 +1,14 @@
 {
-  "actualizado": "20/05/2026, 12:32 p. m.",
+  "actualizado": "20/05/2026, 01:00 p. m.",
   "productos": [
+    {
+      "nombre": "LUBRIKON 20W50 MINERAL",
+      "precio_usd_bcv": "$8.93",
+      "precio_bs": 4650,
+      "categoria": "Aceite 20w50",
+      "descripcion": "Cuidamos lo que te mueve.",
+      "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
+    },
     {
       "nombre": "MOTUL 2000 20W50 MINERAL",
       "precio_usd_bcv": "$16.57",
