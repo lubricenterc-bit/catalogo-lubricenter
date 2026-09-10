@@ -1,5 +1,5 @@
 {
-  "actualizado": "10/09/2026, 02:06 p. m.",
+  "actualizado": "10/09/2026, 02:08 p. m.",
   "productos": [
     {
       "nombre": "LUBRIKON 2T 1/2 LITRO",
@@ -91,8 +91,8 @@
     },
     {
       "nombre": "LUBRIKON 20W50 MINERAL",
-      "precio_usd_bcv": "$7.89",
-      "precio_bs": 6530,
+      "precio_usd_bcv": "$8.28",
+      "precio_bs": 6850,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
@@ -115,8 +115,8 @@
     },
     {
       "nombre": "LUBRIKON DEX III",
-      "precio_usd_bcv": "$7.32",
-      "precio_bs": 6060,
+      "precio_usd_bcv": "$8.28",
+      "precio_bs": 6850,
       "categoria": "Hidraulico",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/gJzX02dg/Gemini-Generated-Image-hvjzknhvjzknhvjz.png"
@@ -539,8 +539,8 @@
     },
     {
       "nombre": "LUBRIKON 20W50 MINERAL",
-      "precio_usd_bcv": "$7.89",
-      "precio_bs": 6530,
+      "precio_usd_bcv": "$8.28",
+      "precio_bs": 6850,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=400&auto=format&fit=crop"
@@ -563,8 +563,8 @@
     },
     {
       "nombre": "LUBRIKON DEX III",
-      "precio_usd_bcv": "$7.32",
-      "precio_bs": 6060,
+      "precio_usd_bcv": "$8.28",
+      "precio_bs": 6850,
       "categoria": "Hidraulico",
       "descripcion": "Cuidamos lo que te mueve.",
       "imagen": "https://i.postimg.cc/gJzX02dg/Gemini-Generated-Image-hvjzknhvjzknhvjz.png"
