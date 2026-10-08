@@ -1,9 +1,9 @@
 {
-  "actualizado": "08/10/2026, 07:00 a. m.",
+  "actualizado": "08/10/2026, 01:00 p. m.",
   "productos": [
     {
       "nombre": "VOLTEX 20W50 MINERAL GALON",
-      "precio_usd_bcv": "$34.01",
+      "precio_usd_bcv": "$33.98",
       "precio_bs": 29720,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -11,7 +11,7 @@
     },
     {
       "nombre": "VOLTEX 20W50 MINERAL LITRO",
-      "precio_usd_bcv": "$9.72",
+      "precio_usd_bcv": "$9.71",
       "precio_bs": 8490,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -19,7 +19,7 @@
     },
     {
       "nombre": "VOLTEX 15W40 SEMISINTETICO GALON",
-      "precio_usd_bcv": "$36.44",
+      "precio_usd_bcv": "$36.4",
       "precio_bs": 31840,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -27,7 +27,7 @@
     },
     {
       "nombre": "VOLTEX 15W40 SEMISINTETICO LITRO",
-      "precio_usd_bcv": "$11.53",
+      "precio_usd_bcv": "$11.52",
       "precio_bs": 10080,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -35,7 +35,7 @@
     },
     {
       "nombre": "K9 20W-50 SEMISINTETICO",
-      "precio_usd_bcv": "$12.75",
+      "precio_usd_bcv": "$12.74",
       "precio_bs": 11140,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -43,7 +43,7 @@
     },
     {
       "nombre": "K9 15W-40 SEMISINTETICO",
-      "precio_usd_bcv": "$12.75",
+      "precio_usd_bcv": "$12.74",
       "precio_bs": 11140,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -51,7 +51,7 @@
     },
     {
       "nombre": "FANFARO 15W40 SEMI-SINTETICO",
-      "precio_usd_bcv": "$12.14",
+      "precio_usd_bcv": "$12.13",
       "precio_bs": 10610,
       "categoria": "General",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -59,7 +59,7 @@
     },
     {
       "nombre": "MOTORCRAFT 10W30 SEMI-SINTETICO",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 10w30",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -67,7 +67,7 @@
     },
     {
       "nombre": "MOTORCRAFT MERCON V",
-      "precio_usd_bcv": "$17",
+      "precio_usd_bcv": "$16.99",
       "precio_bs": 14860,
       "categoria": "Hidraulico",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -75,7 +75,7 @@
     },
     {
       "nombre": "GOODYEAR 10W30 FULL SINTETICO",
-      "precio_usd_bcv": "$12.75",
+      "precio_usd_bcv": "$12.74",
       "precio_bs": 11140,
       "categoria": "Aceite 10w30",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -83,7 +83,7 @@
     },
     {
       "nombre": "SHELL 4T 20W50 ",
-      "precio_usd_bcv": "$17.61",
+      "precio_usd_bcv": "$17.59",
       "precio_bs": 15390,
       "categoria": "Aceite 4T",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -99,7 +99,7 @@
     },
     {
       "nombre": "AEROSOL CHAMPION",
-      "precio_usd_bcv": "$6.08",
+      "precio_usd_bcv": "$6.07",
       "precio_bs": 5310,
       "categoria": "Aerosol",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -107,7 +107,7 @@
     },
     {
       "nombre": "FLUSHING RADIADOR WHIZ",
-      "precio_usd_bcv": "$6.08",
+      "precio_usd_bcv": "$6.07",
       "precio_bs": 5310,
       "categoria": "Flushing",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -115,7 +115,7 @@
     },
     {
       "nombre": "BANDOL 15W-40 SEMISINTETICO",
-      "precio_usd_bcv": "$8.5",
+      "precio_usd_bcv": "$8.49",
       "precio_bs": 7430,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -123,7 +123,7 @@
     },
     {
       "nombre": "BANDOL 20W-50 MINERAL",
-      "precio_usd_bcv": "$8.5",
+      "precio_usd_bcv": "$8.49",
       "precio_bs": 7430,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -131,7 +131,7 @@
     },
     {
       "nombre": "VENOCO 20W-50 SEMISINTETICO",
-      "precio_usd_bcv": "$13.35",
+      "precio_usd_bcv": "$13.34",
       "precio_bs": 11670,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -139,7 +139,7 @@
     },
     {
       "nombre": "VENOCO 15W-40 SEMISINTETICO",
-      "precio_usd_bcv": "$13.35",
+      "precio_usd_bcv": "$13.34",
       "precio_bs": 11670,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -147,7 +147,7 @@
     },
     {
       "nombre": "VENOCO 20w-50 MINERAL",
-      "precio_usd_bcv": "$12.14",
+      "precio_usd_bcv": "$12.13",
       "precio_bs": 10610,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -155,7 +155,7 @@
     },
     {
       "nombre": "REFRIGERANTE QUALID",
-      "precio_usd_bcv": "$18.22",
+      "precio_usd_bcv": "$18.2",
       "precio_bs": 15920,
       "categoria": "Refrigerante",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -163,7 +163,7 @@
     },
     {
       "nombre": "FILTRO QUALID",
-      "precio_usd_bcv": "$7.29",
+      "precio_usd_bcv": "$7.28",
       "precio_bs": 6370,
       "categoria": "Filtro de Aceite",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -171,7 +171,7 @@
     },
     {
       "nombre": "FANFARO 20W50 MINERAL",
-      "precio_usd_bcv": "$9.72",
+      "precio_usd_bcv": "$9.71",
       "precio_bs": 8490,
       "categoria": "General",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -179,7 +179,7 @@
     },
     {
       "nombre": "GALON 20W50 SEMISINTETICO FANFARO",
-      "precio_usd_bcv": "$48.58",
+      "precio_usd_bcv": "$48.53",
       "precio_bs": 42450,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -187,7 +187,7 @@
     },
     {
       "nombre": "SHELL HELIX 10W40 SEMISINTETICO HX7",
-      "precio_usd_bcv": "$20.64",
+      "precio_usd_bcv": "$20.62",
       "precio_bs": 18040,
       "categoria": "General",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -195,7 +195,7 @@
     },
     {
       "nombre": "SHELL HELIX 20w50 MINERAL",
-      "precio_usd_bcv": "$19.43",
+      "precio_usd_bcv": "$19.41",
       "precio_bs": 16980,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -203,7 +203,7 @@
     },
     {
       "nombre": "INCA 25W60 MINERAL",
-      "precio_usd_bcv": "$11.53",
+      "precio_usd_bcv": "$11.52",
       "precio_bs": 10080,
       "categoria": "Aceite 25w60",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -211,7 +211,7 @@
     },
     {
       "nombre": "INCA 15W40 MINERAL",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -219,7 +219,7 @@
     },
     {
       "nombre": "FANFARO 5W40 FULL SINTETICO",
-      "precio_usd_bcv": "$12.14",
+      "precio_usd_bcv": "$12.13",
       "precio_bs": 10610,
       "categoria": "Aceite 5w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -227,7 +227,7 @@
     },
     {
       "nombre": "FANFARO 5W30 FULL SINTETICO",
-      "precio_usd_bcv": "$12.14",
+      "precio_usd_bcv": "$12.13",
       "precio_bs": 10610,
       "categoria": "General",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -235,7 +235,7 @@
     },
     {
       "nombre": "FANFARO 10W40 FULL SINTETICO",
-      "precio_usd_bcv": "$12.14",
+      "precio_usd_bcv": "$12.13",
       "precio_bs": 10610,
       "categoria": "Aceite 10w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -243,7 +243,7 @@
     },
     {
       "nombre": "LUBRIKON SAE 50 GRANEL",
-      "precio_usd_bcv": "$6.08",
+      "precio_usd_bcv": "$6.07",
       "precio_bs": 5310,
       "categoria": "General",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -251,7 +251,7 @@
     },
     {
       "nombre": "LUBRIKON 20W50 MINERAL",
-      "precio_usd_bcv": "$7.9",
+      "precio_usd_bcv": "$7.89",
       "precio_bs": 6900,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -259,7 +259,7 @@
     },
     {
       "nombre": "MOTUL 2000 20W50 MINERAL",
-      "precio_usd_bcv": "$16.4",
+      "precio_usd_bcv": "$16.38",
       "precio_bs": 14330,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -267,7 +267,7 @@
     },
     {
       "nombre": "MOTUL 4100 15w40 SEMISINTETICO",
-      "precio_usd_bcv": "$18.22",
+      "precio_usd_bcv": "$18.2",
       "precio_bs": 15920,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -275,7 +275,7 @@
     },
     {
       "nombre": "LUBRIKON DEX III",
-      "precio_usd_bcv": "$7.9",
+      "precio_usd_bcv": "$7.89",
       "precio_bs": 6900,
       "categoria": "Hidraulico",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -291,7 +291,7 @@
     },
     {
       "nombre": "REFRIGERANTE SERVILUB",
-      "precio_usd_bcv": "$14.58",
+      "precio_usd_bcv": "$14.56",
       "precio_bs": 12740,
       "categoria": "Refrigerante",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -299,7 +299,7 @@
     },
     {
       "nombre": "VALVOLINE DEX III",
-      "precio_usd_bcv": "$15.19",
+      "precio_usd_bcv": "$15.17",
       "precio_bs": 13270,
       "categoria": "Hidraulico",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -315,7 +315,7 @@
     },
     {
       "nombre": "Filtro Lirax",
-      "precio_usd_bcv": "$6.08",
+      "precio_usd_bcv": "$6.07",
       "precio_bs": 5310,
       "categoria": "Filtro de Aceite",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -323,7 +323,7 @@
     },
     {
       "nombre": "Filtro Millard",
-      "precio_usd_bcv": "$8.5",
+      "precio_usd_bcv": "$8.49",
       "precio_bs": 7430,
       "categoria": "Filtro de Aceite",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -331,7 +331,7 @@
     },
     {
       "nombre": "SKY EVOLUB 20W-50 SEMISINTETICO ",
-      "precio_usd_bcv": "$14.58",
+      "precio_usd_bcv": "$14.56",
       "precio_bs": 12740,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -339,7 +339,7 @@
     },
     {
       "nombre": "SKY EVOLUB 15W-40 SEMISINTETICO",
-      "precio_usd_bcv": "$14.58",
+      "precio_usd_bcv": "$14.56",
       "precio_bs": 12740,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -347,7 +347,7 @@
     },
     {
       "nombre": "Brava 4 Tiempos 20w50",
-      "precio_usd_bcv": "$9.11",
+      "precio_usd_bcv": "$9.1",
       "precio_bs": 7960,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -355,7 +355,7 @@
     },
     {
       "nombre": "MOBIL DELVAC 15W40 SEMISINTETICO DIESEL/GASOLINA",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -363,7 +363,7 @@
     },
     {
       "nombre": "INCA 5w30 FULL SINTETICO",
-      "precio_usd_bcv": "$19.43",
+      "precio_usd_bcv": "$19.41",
       "precio_bs": 16980,
       "categoria": "Aceite 5w30",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -371,7 +371,7 @@
     },
     {
       "nombre": "INCA DEX III",
-      "precio_usd_bcv": "$11.53",
+      "precio_usd_bcv": "$11.52",
       "precio_bs": 10080,
       "categoria": "Hidraulico",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -379,7 +379,7 @@
     },
     {
       "nombre": "DR CARE 20W50 MINERAL",
-      "precio_usd_bcv": "$24.29",
+      "precio_usd_bcv": "$24.27",
       "precio_bs": 21230,
       "categoria": "Aceite 20w50",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -387,7 +387,7 @@
     },
     {
       "nombre": "MOTORCRAFT 0W-20 SEMISINTETICO",
-      "precio_usd_bcv": "$12.14",
+      "precio_usd_bcv": "$12.13",
       "precio_bs": 10610,
       "categoria": "General",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -395,7 +395,7 @@
     },
     {
       "nombre": "INCA 20w50 MINERAL",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -403,7 +403,7 @@
     },
     {
       "nombre": "INCA 20w50 SEMI-SINTETICO ",
-      "precio_usd_bcv": "$14.58",
+      "precio_usd_bcv": "$14.56",
       "precio_bs": 12740,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -411,7 +411,7 @@
     },
     {
       "nombre": "INCA 15w40 SEMI-SINTETICO",
-      "precio_usd_bcv": "$14.58",
+      "precio_usd_bcv": "$14.56",
       "precio_bs": 12740,
       "categoria": "Aceite 15w40",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -419,7 +419,7 @@
     },
     {
       "nombre": "VALVOLINE 5w20 FULL SINTETICO",
-      "precio_usd_bcv": "$19.43",
+      "precio_usd_bcv": "$19.41",
       "precio_bs": 16980,
       "categoria": "Aceite 5w20",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -427,7 +427,7 @@
     },
     {
       "nombre": "VALVULINA BRAVA 85-140W",
-      "precio_usd_bcv": "$9.11",
+      "precio_usd_bcv": "$9.1",
       "precio_bs": 7960,
       "categoria": "Valvulina",
       "descripcion": "Cuidamos lo que te mueve.",
@@ -435,7 +435,7 @@
     },
     {
       "nombre": "VALVULINA BRAVA 75-90W",
-      "precio_usd_bcv": "$9.11",
+      "precio_usd_bcv": "$9.1",
       "precio_bs": 7960,
       "categoria": "Valvulina",
       "descripcion": "chronus",
@@ -443,7 +443,7 @@
     },
     {
       "nombre": "VALVOLINE VALVODIESEL 15W/40 MINERAL",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -451,7 +451,7 @@
     },
     {
       "nombre": "CHRONUS 20W50 MINERAL",
-      "precio_usd_bcv": "$11.53",
+      "precio_usd_bcv": "$11.52",
       "precio_bs": 10080,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -459,7 +459,7 @@
     },
     {
       "nombre": "GULF 20W50 MINERAL",
-      "precio_usd_bcv": "$9.72",
+      "precio_usd_bcv": "$9.71",
       "precio_bs": 8490,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -467,7 +467,7 @@
     },
     {
       "nombre": "REFRIGERANTE DR CARE ANARANJADO",
-      "precio_usd_bcv": "$17",
+      "precio_usd_bcv": "$16.99",
       "precio_bs": 14860,
       "categoria": "Refrigerante",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -475,7 +475,7 @@
     },
     {
       "nombre": "VALVOLINE 20W50 MINERAL",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -483,7 +483,7 @@
     },
     {
       "nombre": "LIRAX 20W50 MINERAL",
-      "precio_usd_bcv": "$7.9",
+      "precio_usd_bcv": "$7.89",
       "precio_bs": 6900,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -491,7 +491,7 @@
     },
     {
       "nombre": "LIRAX 15W40 MINERAL",
-      "precio_usd_bcv": "$8.5",
+      "precio_usd_bcv": "$8.49",
       "precio_bs": 7430,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -499,7 +499,7 @@
     },
     {
       "nombre": "LIRAX 20W50 SEMISINTETICO",
-      "precio_usd_bcv": "$9.11",
+      "precio_usd_bcv": "$9.1",
       "precio_bs": 7960,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -507,7 +507,7 @@
     },
     {
       "nombre": "BRAVA 20W50 MINERAL",
-      "precio_usd_bcv": "$9.11",
+      "precio_usd_bcv": "$9.1",
       "precio_bs": 7960,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -515,7 +515,7 @@
     },
     {
       "nombre": "BRAVA DEX III",
-      "precio_usd_bcv": "$9.72",
+      "precio_usd_bcv": "$9.71",
       "precio_bs": 8490,
       "categoria": "Hidraulico",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -523,7 +523,7 @@
     },
     {
       "nombre": "BRAVA 20W50 SEMISINTETICO",
-      "precio_usd_bcv": "$9.72",
+      "precio_usd_bcv": "$9.71",
       "precio_bs": 8490,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -531,7 +531,7 @@
     },
     {
       "nombre": "BRAVA 15W40 MINERAL",
-      "precio_usd_bcv": "$9.11",
+      "precio_usd_bcv": "$9.1",
       "precio_bs": 7960,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -539,7 +539,7 @@
     },
     {
       "nombre": "CHRONUS 15W40 SEMI SINTETICO",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -547,7 +547,7 @@
     },
     {
       "nombre": "CHRONUS 20W50 SEMI SYNTETICO",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -555,7 +555,7 @@
     },
     {
       "nombre": "BRAVA 10W-30 SEMISINTETICO",
-      "precio_usd_bcv": "$9.72",
+      "precio_usd_bcv": "$9.71",
       "precio_bs": 8490,
       "categoria": "Aceite 10w30",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -563,7 +563,7 @@
     },
     {
       "nombre": "BRAVA 15W40 SEMISINTETICO",
-      "precio_usd_bcv": "$10.32",
+      "precio_usd_bcv": "$10.31",
       "precio_bs": 9020,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -571,7 +571,7 @@
     },
     {
       "nombre": "LIRAX 15W40 SEMI SINTETICO",
-      "precio_usd_bcv": "$9.11",
+      "precio_usd_bcv": "$9.1",
       "precio_bs": 7960,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -579,7 +579,7 @@
     },
     {
       "nombre": "LIRAX 20W50 MINERAL GRANEL",
-      "precio_usd_bcv": "$6.08",
+      "precio_usd_bcv": "$6.07",
       "precio_bs": 5310,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -587,7 +587,7 @@
     },
     {
       "nombre": "VALVOLINE 20W50 SEMISINTETICO",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 20w50",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -595,7 +595,7 @@
     },
     {
       "nombre": "VALVOLINE 10W-30 SEMISINTETICO",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 10w30",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
@@ -603,7 +603,7 @@
     },
     {
       "nombre": "VALVOLINE 15W40 SEMI SINTETICO",
-      "precio_usd_bcv": "$13.97",
+      "precio_usd_bcv": "$13.96",
       "precio_bs": 12210,
       "categoria": "Aceite 15w40",
       "descripcion": "Producto automotriz de alta calidad para mejorar el rendimiento y la durabilidad del vehículo.",
